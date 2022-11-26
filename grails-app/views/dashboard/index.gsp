@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>Welcome to Grails Online Contacts Book</h1>
+<h1>Welcome to LE COINCOIN</h1>
 
 </body>
 </html>

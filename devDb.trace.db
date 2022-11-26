@@ -1,0 +1,3 @@
+2022-11-24 20:49:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Table "CONTACT_GROUPMEMBER" not found; SQL statement:
+SELECT * FROM CONTACT_GROUPMEMBER [42102-197]

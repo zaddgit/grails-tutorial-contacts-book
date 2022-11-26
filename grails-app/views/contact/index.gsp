@@ -19,7 +19,7 @@
 
             <div class="btn-group">
                 <g:link controller="contact" action="create" class="btn btn-success"><g:message code="create"/></g:link>
-                <g:link controller="contact" action="index" class="btn btn-primary"><g:message code="reload"/></g:link>
+
             </div>
         </span>
     </div>
@@ -29,6 +29,8 @@
             <tr>
                 <th style="width: 150px"><g:message code="image"/></th>
                 <g:sortableColumn property="name" title="${g.message(code: "name")}"/>
+                <g:sortableColumn property="Description" title="${g.message(code: "name")}"/>
+
                 <th class="action-row"><g:message code="action"/></th>
             </tr>
             </thead>

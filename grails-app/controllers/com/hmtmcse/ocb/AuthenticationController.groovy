@@ -27,9 +27,7 @@ class AuthenticationController {
         redirect(controller: "authentication", action: "login")
     }
 
-    def registration() {
-        [member: flash.redirectParams]
-    }
+
 
 
     def doRegistration() {
@@ -39,7 +37,7 @@ class AuthenticationController {
             redirect(controller: "dashboard", action: "index")
         } else {
             flash.redirectParams = response.model
-            redirect(controller: "authentication", action: "registration")
+            redirect(controller: "authentication", action: "login")
         }
     }
 

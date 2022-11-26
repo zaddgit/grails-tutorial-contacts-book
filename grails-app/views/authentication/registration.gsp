@@ -2,7 +2,7 @@
 
 <div class="card">
     <div class="card-header">
-        Member Registration
+        User Registration
     </div>
     <div class="card-body">
         <g:form controller="authentication" action="doRegistration">

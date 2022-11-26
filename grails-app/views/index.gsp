@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>Bismillah Grails Online Contacts Book View</h1>
+<h1>Le COINCOIN</h1>
 
 </body>
 </html>

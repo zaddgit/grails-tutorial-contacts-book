@@ -35,11 +35,10 @@
                             <div class="col-4">
                                 <div class="card" style="margin-bottom: 8px;">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item"><strong>Contact Type:</strong> ${details.type}</li>
+                                    <li class="list-group-item"><strong>User Type:</strong> ${details.type}</li>
                                         <li class="list-group-item"><strong>Mobile:</strong> ${details.mobile}</li>
                                         <li class="list-group-item"><strong>Phone:</strong> ${details.phone}</li>
                                         <li class="list-group-item"><strong>Email Address:</strong> ${details.email}</li>
-                                        <li class="list-group-item"><strong>Web:</strong> ${details.website}</li>
                                         <li class="list-group-item"><strong>Address:</strong> ${details.address}</li>
                                     </ul>
                                 </div>
